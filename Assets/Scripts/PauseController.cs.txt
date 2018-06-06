@@ -1,0 +1,28 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+
+public class PauseController : MonoBehaviour {
+
+	public Text pauseText;
+	public GameObject pauseImage;
+
+	void Start () {
+		pauseText.text = "";
+		pauseImage.SetActive (false);
+	}
+
+	void Update () {
+		if (Input.GetKeyDown (KeyCode.P)) {
+			Time.timeScale = 1 - Time.timeScale;
+			if (Time.timeScale == 0) {
+				pauseText.text = "PAUSED";
+				pauseImage.SetActive (true);
+			} else {
+				pauseText.text = "";
+				pauseImage.SetActive (false);
+			}
+		}
+	
+	}
+}

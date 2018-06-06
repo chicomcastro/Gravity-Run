@@ -1,0 +1,76 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class playerMovement: MonoBehaviour {
+
+	public Rigidbody2D	rb;
+	public int forceJump;
+	public float walkForce;
+	public float g;
+	public float jumpSpeed;
+	public int jumpCount = 2;
+	private int count = 0;
+	public float walkIncrease;
+
+
+	void Start ()
+	{
+		StartCoroutine (SpeedUp ());
+
+		rb = GetComponent<Rigidbody2D> ();
+	}
+
+	IEnumerator SpeedUp ()
+	{
+		while (true) {
+			yield return new WaitForSeconds (1);
+			walkForce *= (1 + walkIncrease/100);
+		}
+	}
+		
+
+	void Update() {
+
+
+		float dT = Time.deltaTime;
+
+		if (Input.GetButton ("Right")) {
+		
+			rb.transform.Translate ( new Vector3 (walkForce * dT, 0, 0));
+		}
+
+		if(Input.GetButton("Left")){
+
+			rb.transform.Translate ( new Vector3 (-walkForce * dT, 0, 0));
+		}
+
+		if (transform.position.y > 0) {
+			rb.gravityScale = -g;
+			if (Input.GetButtonDown ("Jump") && count < jumpCount) {
+
+				rb.velocity = new Vector2 (0, -jumpSpeed);
+
+				count++;
+				Debug.Log (count);
+			}
+		}
+
+		if (transform.position.y < 0) {
+			rb.gravityScale = g;
+			if (Input.GetButtonDown ("Jump") && count < jumpCount) {
+
+				rb.velocity = new Vector2 (0, jumpSpeed);
+
+				count++;
+				Debug.Log (count);
+			}
+		}
+	}
+
+	void OnCollisionEnter2D( Collision2D other )
+	{
+		if (((rb.transform.position.y > 0) && (rb.transform.position.y - other.transform.position.y < 0))
+		    || ((rb.transform.position.y < 0) && (rb.transform.position.y - other.transform.position.y > 0)))
+			count = 0;
+	}
+}

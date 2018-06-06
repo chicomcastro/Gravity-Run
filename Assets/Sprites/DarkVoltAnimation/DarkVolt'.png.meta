@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: e490d1296ca33e04f8cbf4e9674ed889
+timeCreated: 1466315809
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DarkVolt'_0
+    21300002: DarkVolt'_1
+    21300004: DarkVolt'_2
+    21300006: DarkVolt'_3
+    21300008: DarkVolt'_4
+    21300010: DarkVolt'_5
+    21300012: DarkVolt'_6
+    21300014: DarkVolt'_7
+    21300016: DarkVolt'_8
+    21300018: DarkVolt'_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DarkVolt'_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 261
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 50}
+        - {x: -14, y: 50}
+        - {x: -22, y: 49}
+        - {x: -35, y: 32}
+        - {x: -35, y: 13}
+        - {x: -28, y: -1}
+        - {x: 2, y: -50}
+        - {x: 33, y: -50}
+        - {x: 35, y: -42}
+        - {x: 35, y: 20}
+        - {x: 29, y: 29}
+    - name: DarkVolt'_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 265
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 50.5}
+        - {x: -33.5, y: 44.5}
+        - {x: -33.5, y: -1.5}
+        - {x: -12.5, y: -50.5}
+        - {x: 32.5, y: -50.5}
+        - {x: 33.5, y: -48.5}
+        - {x: 33.5, y: 33.5}
+        - {x: 23.5, y: 50.5}
+    - name: DarkVolt'_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 267
+        width: 80
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 46.5}
+        - {x: -40, y: 28.5}
+        - {x: -40, y: -46.5}
+        - {x: 3, y: -46.5}
+        - {x: 40, y: -30.5}
+        - {x: 40, y: 30.5}
+        - {x: 27, y: 46.5}
+    - name: DarkVolt'_3
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 271
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 48}
+        - {x: -17.5, y: 48}
+        - {x: -39.5, y: 42}
+        - {x: -39.5, y: -40}
+        - {x: -37.5, y: -48}
+        - {x: 39.5, y: -48}
+        - {x: 39.5, y: 7}
+        - {x: 20.5, y: 42}
+    - name: DarkVolt'_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 279
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 48}
+        - {x: -9, y: 48}
+        - {x: -21, y: 46}
+        - {x: -36, y: 31}
+        - {x: -36, y: -1}
+        - {x: -26, y: -31}
+        - {x: 1, y: -41}
+        - {x: 18, y: -48}
+        - {x: 31, y: -48}
+        - {x: 36, y: -42}
+        - {x: 36, y: 24}
+        - {x: 34, y: 41}
+    - name: DarkVolt'_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 149
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 49.5}
+        - {x: -35.5, y: 5.5}
+        - {x: -15.5, y: -34.5}
+        - {x: 3.5, y: -49.5}
+        - {x: 30.5, y: -49.5}
+        - {x: 35.5, y: -46.5}
+        - {x: 35.5, y: 49.5}
+    - name: DarkVolt'_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 145
+        width: 74
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 50.5}
+        - {x: -37, y: 36.5}
+        - {x: -37, y: -10.5}
+        - {x: -18, y: -50.5}
+        - {x: 8, y: -50.5}
+        - {x: 37, y: -35.5}
+        - {x: 37, y: 35.5}
+        - {x: 27, y: 50.5}
+    - name: DarkVolt'_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 152
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 45}
+        - {x: -42, y: 34}
+        - {x: -42, y: -39}
+        - {x: -40, y: -45}
+        - {x: -5, y: -45}
+        - {x: 42, y: -27}
+        - {x: 42, y: -5}
+        - {x: 10, y: 45}
+    - name: DarkVolt'_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 150
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: 42.5}
+        - {x: 24.5, y: 48.5}
+        - {x: -40.5, y: 48.5}
+        - {x: -40.5, y: -30.5}
+        - {x: -22.5, y: -48.5}
+        - {x: -9.5, y: -48.5}
+        - {x: -1.5, y: -41.5}
+        - {x: 40.5, y: -42.5}
+    - name: DarkVolt'_9
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 153
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 47.5}
+        - {x: -35.5, y: 40.5}
+        - {x: -35.5, y: -33.5}
+        - {x: 8.5, y: -47.5}
+        - {x: 35.5, y: -47.5}
+        - {x: 35.5, y: 47.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

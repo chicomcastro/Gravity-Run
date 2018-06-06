@@ -1,0 +1,51 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
+
+public class StayAlive : MonoBehaviour {
+
+	public GameObject player;
+	public float Ymax;
+	public float Ymin;
+	public float Xmax;
+	public float Xmin;
+
+	public Text gameOverText;
+	public GameObject gameOverImage;
+	public Text restartText;
+
+	private string text = "GAME OVER!";
+	private bool acabou = false;
+
+	void Start()
+	{
+		restartText.text = "";
+		gameOverText.text = "";
+		gameOverImage.SetActive (false);
+	}
+
+	void Update () {
+		if ((player.transform.position.y > Ymax || player.transform.position.y < Ymin
+		    || player.transform.position.x > Xmax || player.transform.position.x < Xmin) && !acabou) {
+			StartCoroutine (GameOver ());
+			acabou = true;
+		}
+		if (acabou) {
+			if (Input.GetKey (KeyCode.R))
+				SceneManager.LoadScene ("MyGame");
+		}
+	}
+
+	IEnumerator GameOver()
+	{
+		gameOverImage.SetActive (true);
+		player.SetActive (false);
+		for (int i = 0; i < text.Length - 1; i++) {
+			gameOverText.text += text [i];
+			yield return new WaitForSeconds (0.1f);
+		}
+		restartText.text = "Press R to restart";
+	}
+
+}
